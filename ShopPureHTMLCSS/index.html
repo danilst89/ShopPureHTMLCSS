@@ -29,7 +29,11 @@
 			<li><a href='#'>Sell on Shopka</a></li>
 			<li><a href='#'>Register</a></li>
 		</ul>
-		<input class='header__search' />
+		<div class='header__search__wrapper'>
+			<img class='header__search__loop' src='img/Vectorloop.png' />
+			<input class='header__search' placeholder="useless items on white background" />
+			<img class='header__search__close' src='img/Vectorclose.png' />
+		</div>
 		<a href='#' class='header__link'>Consumer Electronics</a>
 		<a class='header__sign' href='#'>Sign in</a>
 		<div class="parentCartAndNotify">
@@ -230,111 +234,128 @@
 						<option>Collapsed filters</option>
 					</select>
 					<ul class='aside__filters__selectSecond'>
-						<li class='aside__filters__selectSecond_item_flex'>
-							<p>Expanded Filters</p>
-							<img class='aside__filters__selectSecond_item_flex_img' src='img/Vectorarrow_up.png' />
-						</li>
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='1' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='1'
-								class='aside__filters__selectSecond_item_flex_subitems_text'>Recommended</label>
-						</li>
+						<li class='aside__filters__selectSecond_item_flex_wrapper'>
+							<div class="aside__filters__selectSecond_item_flex">
+								<p>Expanded Filters</p>
+								<img class='aside__filters__selectSecond_item_flex_img' src='img/Vectorarrow_up.png' />
+							</div>
+							<ul class='aside__aside__filters__selectSecond__submenu'>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='1' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='1'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>Recommended</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='2' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='2' class='aside__filters__selectSecond_item_flex_subitems_text'>Recently
-								Added</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='2' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='2' class='aside__filters__selectSecond_item_flex_subitems_text'>Recently
+										Added</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='3' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='3' class='aside__filters__selectSecond_item_flex_subitems_text'>Expiring
-								Soon</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='3' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='3' class='aside__filters__selectSecond_item_flex_subitems_text'>Expiring
+										Soon</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='4' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='4' class='aside__filters__selectSecond_item_flex_subitems_text'>Most
-								Rated</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='4' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='4' class='aside__filters__selectSecond_item_flex_subitems_text'>Most
+										Rated</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='5' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='5' class='aside__filters__selectSecond_item_flex_subitems_text'>Price: Low →
-								High</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='5' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='5' class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
+										Low →
+										High</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='6' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='6' class='aside__filters__selectSecond_item_flex_subitems_text'>Price: High →
-								Low</label>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='6' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='6' class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
+										High →
+										Low</label>
+								</li>
+							</ul>
 						</li>
 					</ul>
 					<ul class='aside__filters__selectThird'>
-						<li class='aside__filters__selectThird_item_flex'>
-							<p>Year of manufacturing</p>
-							<img class='aside__filters__selectThird_item_flex_img' src='img/Vectorarrow_up.png' />
-						</li>
+						<li class='aside__filters__selectThird_item_flex_wrapper'>
+							<div class="aside__filters__selectThird_item_flex">
+								<p>Year of manufacturing</p>
+								<img class='aside__filters__selectThird_item_flex_img' src='img/Vectorarrow_up.png' />
+							</div>
+							<ul class='aside__aside__filters__selectThird__submenu'>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='7' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='7'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1954</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='7' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='7' class='aside__filters__selectSecond_item_flex_subitems_text'>1954</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='8' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='8'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1955</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='8' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='8' class='aside__filters__selectSecond_item_flex_subitems_text'>1955</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='9' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='9'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1956</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='9' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='9' class='aside__filters__selectSecond_item_flex_subitems_text'>1956</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='10' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='10'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1957</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='10' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='10' class='aside__filters__selectSecond_item_flex_subitems_text'>1957</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='11' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='11'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1958</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='11' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='11' class='aside__filters__selectSecond_item_flex_subitems_text'>1958</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='12' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='12'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1959</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='12' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='12' class='aside__filters__selectSecond_item_flex_subitems_text'>1959</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='13' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='13'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1960</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='13' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='13' class='aside__filters__selectSecond_item_flex_subitems_text'>1960</label>
-						</li>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='14' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='14'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1961</label>
+								</li>
 
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='14' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='14' class='aside__filters__selectSecond_item_flex_subitems_text'>1961</label>
-						</li>
-
-						<li class='aside__filters__selectSecond_item_flex_subitems'>
-							<input id='15' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-								type='checkbox' />
-							<label for='15'
-								class='aside__filters__selectSecond_item_flex_subitems_text'>1962-2020</label>
+								<li class='aside__filters__selectSecond_item_flex_subitems'>
+									<input id='15' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+										type='checkbox' />
+									<label for='15'
+										class='aside__filters__selectSecond_item_flex_subitems_text'>1962-2020</label>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</div>
