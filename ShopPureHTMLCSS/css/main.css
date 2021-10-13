@@ -43,7 +43,6 @@ select {
     justify-content: center;
     align-items: center;
     height: 40px;
-    padding-left: 16px;
     padding-top: 10px;
 }
 
@@ -65,7 +64,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 31px 0 31px;
+    padding: 20px 0 0 31px;
     margin: 0;
 }
 
@@ -94,7 +93,7 @@ select {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    padding: 20px 15px 0 15px;
+    padding: 20px 15px 0 0;
 }
 
 .header__sign {
@@ -174,8 +173,8 @@ select {
     cursor: pointer;
 }
 
-.categories__item__img {
-    color: #9696a0;
+.categories__item:hover > .categories__item__img > svg {
+    fill: #2979ff;
 }
 
 .categories__item__text {
@@ -371,6 +370,7 @@ select {
     padding: 16px 16px 0 16px;
     width: 19.25%;
     margin: 0 16px;
+    border-radius: 8px;
 }
 
 .carts__item:hover {
@@ -601,14 +601,15 @@ select {
 .customerBusinessWrapper {
     display: flex;
     align-items: center;
+    padding-right: 276px;
 }
 
 .footer__business {
-    margin-left: 665px;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 16px;
     color: #b1b1c3;
+    margin-left: auto;
 }
 
 .footer__about {
@@ -616,6 +617,7 @@ select {
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-right: 259px;
 }
 
 .footer__about__item {
@@ -635,7 +637,7 @@ select {
 }
 
 .footer__about__item__last {
-    margin-left: 300px;
+    margin-left: auto;
 }
 
 .allContactsFlex {
@@ -697,7 +699,7 @@ select {
 
 .allContacts__track {
     width: 166px;
-    height: 40px;
+    height: 42px;
     font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
@@ -705,11 +707,14 @@ select {
     border-radius: 4px;
     color: #2264d1;
     border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondAllContactsFlex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .socialMedia {
@@ -732,6 +737,11 @@ select {
     margin-top: 30px;
     display: flex;
     align-items: center;
+    width: 130%;
+}
+
+.width__email img {
+    margin-top: 2px;
 }
 
 .emailInput {
@@ -850,6 +860,10 @@ select {
     left: 19px;
 }
 
+.aside__allCategories {
+    margin-top: 40px;
+}
+
 .aside__allCategories__text {
     margin-left: 16.3px;
 }
@@ -963,9 +977,14 @@ select {
 }
 
 .aside__allCategories__open__item_subitem_active {
-    height: auto;
-    opacity: 1;
-    display: block;
+    height: auto !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.aside__aside__filters__selectSecond__submenu_active {
+    display: block !important;
+    height: auto !important;
 }
 
 .aside__allCategories__open__item_subitem_item {
@@ -1084,9 +1103,10 @@ select {
     padding-left: 12px;
     padding-top: 8px;
     margin-top: 24px;
-    cursor: pointer;
     padding-bottom: 8px;
     user-select: none;
+    background: #f7f7fa;
+    border-radius: 4px;
 }
 
 .aside__filters__selectSecond:hover {
@@ -1111,7 +1131,6 @@ select {
     display: flex;
     align-items: center;
     margin-top: 22px;
-    cursor: pointer;
 }
 
 .aside__filters__selectSecond_item_flex_subitems_checkbox {
@@ -1139,9 +1158,10 @@ select {
     padding-left: 12px;
     padding-top: 8px;
     margin-top: 24px;
-    cursor: pointer;
     padding-bottom: 8px;
     user-select: none;
+    background: #f7f7fa;
+    border-radius: 4px;
 }
 
 .aside__filters__selectThird:hover {
@@ -1167,15 +1187,14 @@ select {
     box-sizing: border-box;
     width: 668px;
     position: relative;
-    padding-left: 103px;
-    padding-right: 15px;
+    padding-left: 30px;
     padding-top: 20px;
 }
 
 .header__search__loop {
     position: absolute;
     top: 35px;
-    left: 118px;
+    left: 45px;
     z-index: 2;
     cursor: pointer;
 }
@@ -1194,7 +1213,7 @@ select {
 .header__search__close {
     position: absolute;
     right: 32px;
-    top: 37px;
+    top: 35px;
     cursor: pointer;
 }
 
@@ -1229,6 +1248,11 @@ select {
     padding: 0;
     display: none;
     height: 0;
+}
+
+.aside__aside__filters__selectThird__submenu_active {
+    display: block !important;
+    height: auto !important;
 }
 
 .aside__filters__selectThird_item_flex:hover
@@ -1304,4 +1328,11 @@ select {
 .subfooter__wrapper__cards {
     display: flex;
     align-items: center;
+}
+
+.main__li__show__second img {
+    height: 18px;
+}
+
+.aside__filters__selectSecond_item_flex_img {
 }
