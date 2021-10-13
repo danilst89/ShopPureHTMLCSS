@@ -12,19 +12,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header class='header'>
-		<div class="header__parent__logo">
+		<a href='#' style="display:flex" class="header__parent__logo">
 			<div class='header__background__logo'>
 				<img src='img/Letterlogo.png' />
 			</div>
 			<div class="header__text">
 				Shopka
 			</div>
-		</div>
+		</a>
 		<ul class='header__ul'>
 			<li><a href='#'>Sell on Shopka</a></li>
 			<li><a href='#'>Register</a></li>
@@ -35,654 +35,683 @@
 			<img class='header__search__close' src='img/Vectorclose.png' />
 		</div>
 		<a href='#' class='header__link'>Consumer Electronics</a>
-		<a class='header__sign' href='#'>Sign in</a>
-		<div class="parentCartAndNotify">
-			<a class='header__sign' id='header__cart_subselector' href='#'>My cart</a>
-			<div class='header__notify'>5</div>
-		</div>
-		<img class='header__avatar' src='img/Edward Powlowskiavatat.png' />
-	</header>
-	<ul class="categories">
-		<li class="categories__item">
-			<img class='categories__item__img' src='img/categoriesItems/Vector1.png' />
-			<p class='categories__item__text'>Clothing & Shoes</p>
-		</li>
-
-		<li class="categories__item2">
-			<img class='categories__item__img' src='img/categoriesItems/Vector2.png' />
-			<p class='categories__item__text'>Entertainment</p>
-		</li>
-
-		<li class="categories__item3">
-			<img class='categories__item__img' src='img/categoriesItems/Vector3.png' />
-			<p class='categories__item__text'>Music</p>
-		</li>
-
-		<li class="categories__item4">
-			<img class='categories__item__img' src='img/categoriesItems/Vector4.png' />
-			<p class='categories__item__text'>Sport & Lifestyle</p>
-		</li>
-
-		<li class="categories__item5">
-			<img class='categories__item__img' src='img/categoriesItems/Vector5.png' />
-			<p class='categories__item__text'>Pets</p>
-		</li>
-
-		<li class="categories__item6">
-			<img class='categories__item__img' src='img/categoriesItems/Vector6.png' />
-			<p class='categories__item__text'>Kitchen Accessories</p>
-		</li>
-
-		<li class="categories__item7">
-			<img class='categories__item__img' src='img/categoriesItems/Vector7.png' />
-			<p class='categories__item__text'>Travel Equipment</p>
-		</li>
-
-		<li class="categories__item8">
-			<img class='categories__item__img' src='img/categoriesItems/Vector8.png' />
-			<p class='categories__item__text'>Growing & Garden</p>
-		</li>
-
-		<li class="categories__item9">
-			<img class='categories__item__img' src='img/categoriesItems/Vector9.png' />
-			<p class='categories__item__text'>Electrical Tools</p>
-		</li>
-
-		<li class="categories__item10">
-			<img class='categories__item__img' src='img/categoriesItems/Vector10.png' />
-			<p class='categories__item__text'>Mother Care</p>
-		</li>
-
-		<li class="categories__item11">
-			<img class='categories__item__img' src='img/categoriesItems/Vector11.png' />
-			<p class='categories__item__text'>Toys & Entertainment</p>
-		</li>
-
-		<li class="categories__item12">
-			<img class='categories__item__img' src='img/categoriesItems/Vector12.png' />
-			<p class='categories__item__text'>Vintage</p>
-		</li>
-	</ul>
-
-	<div class="mainAndAsideWrapper">
-		<aside class='aside'>
-			<div class="aside__main_button_wrapper">
-				<img class='aside__main_button_img' src='img/Vector.png'>
-				<button class="aside__main_button">
-					Departments
-				</button>
+		<div class="header__wrapper_links">
+			<a class='header__sign' href='#'>Sign in</a>
+			<div class="parentCartAndNotify">
+				<a class='header__sign' id='header__cart_subselector' href='#'>My cart</a>
+				<div class='header__notify'>5</div>
 			</div>
-			<div class="aside__allCategories">
-				<div class="aside__allCategories__wrapper">
-					<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-					</svg>
+			<a href='#'><img class='header__avatar' src='img/Edward Powlowskiavatat.png' /></a>
+		</div>
+	</header>
+	<nav class='categories__nav'>
+		<ul class="categories">
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector1.png' />
+				<p class='categories__item__text'>Clothing & Shoes</p>
+			</li>
 
-					<div class="aside__allCategories__text">
-						<p class='aside__allCategories__text_main'>All Categories</p>
-						<p class='aside__allCategories__text_submain'>Ecommerce patterns</p>
-					</div>
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector2.png' />
+				<p class='categories__item__text'>Entertainment</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector3.png' />
+				<p class='categories__item__text'>Music</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector4.png' />
+				<p class='categories__item__text'>Sport & Lifestyle</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector5.png' />
+				<p class='categories__item__text'>Pets</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector6.png' />
+				<p class='categories__item__text'>Kitchen Accessories</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector7.png' />
+				<p class='categories__item__text'>Travel Equipment</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector8.png' />
+				<p class='categories__item__text'>Growing & Garden</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector9.png' />
+				<p class='categories__item__text'>Electrical Tools</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector10.png' />
+				<p class='categories__item__text'>Mother Care</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector11.png' />
+				<p class='categories__item__text'>Toys & Entertainment</p>
+			</li>
+
+			<li class="categories__item">
+				<img class='categories__item__img' src='img/categoriesItems/Vector12.png' />
+				<p class='categories__item__text'>Vintage</p>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="mainAndAsideWrapper__wrapper">
+		<div class="mainAndAsideWrapper">
+			<aside class='aside'>
+				<div class="aside__main_button_wrapper">
+					<img class='aside__main_button_img' src='img/Vector.png'>
+					<button class="aside__main_button">
+						Departments
+					</button>
 				</div>
-				<ul class="aside__allCategories__open">
-
-					<li class='aside__allCategories__open__item aside__allCategories__open__item_open'>
+				<div class="aside__allCategories">
+					<div class="aside__allCategories__wrapper">
 						<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
 								d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
 						</svg>
-						<p class='aside__allCategories__open__item__text'>Electronics</p>
-					</li>
 
-					<li class="hideMenu">
-						<ul class="aside__allCategories__open">
-							<li class='aside__allCategories__open__item_width'>
-								<div class="aside__allCategories__open__item_flex">
+						<div class="aside__allCategories__text">
+							<p class='aside__allCategories__text_main'>All Categories</p>
+							<p class='aside__allCategories__text_submain'>Ecommerce patterns</p>
+						</div>
+					</div>
+					<ul class="aside__allCategories__open">
+
+						<li class='aside__allCategories__open__item aside__allCategories__open__item_open'>
+							<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+							</svg>
+							<p class='aside__allCategories__open__item__text'>Electronics</p>
+						</li>
+
+						<li class="hideMenu hideMenu_active">
+							<ul class="aside__allCategories__open">
+								<li class='aside__allCategories__open__item_width'>
+									<div class="aside__allCategories__open__item_flex">
+										<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+										</svg>
+
+										<p class='aside__allCategories__open__item__text'>
+											Cell Phones & Smartphones</p>
+									</div>
+									<ul class='aside__allCategories__open__subitems'>
+										<li
+											class="aside__allCategories__open__item_subitem__ml aside__allCategories__open__item_subitem aside__allCategories__open__item_subitem_active">
+											<div class="aside__allCategories__open__item_subitem_item">
+												Cell Phone Accessories
+											</div>
+
+											<div class="aside__allCategories__open__item_subitem_item">
+												Cell Phone Gatgets
+											</div>
+
+											<div class="aside__allCategories__open__item_subitem_item">
+												Applications
+											</div>
+
+											<div class="aside__allCategories__open__item_subitem_item">
+												Smart Watches
+											</div>
+											<div class="aside__allCategories__open__item_subitem_item_button_wrapper">
+												<img class='aside__allCategories__open__item_subitem_item_button_img'
+													src='img/Vectorbtn_arrow.png' />
+												<button
+													class='aside__allCategories__open__item_subitem_item_button'>Show
+													More</button>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li class='aside__allCategories__open__item'>
 									<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
 										xmlns="http://www.w3.org/2000/svg">
 										<path
 											d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
 									</svg>
+									<p class='aside__allCategories__open__item__text'>Business & Industrial</p>
+								</li>
 
-									<p class='aside__allCategories__open__item__text'>
-										Cell Phones & Smartphones</p>
+								<li class='aside__allCategories__open__item'>
+									<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+									</svg>
+									<div class="aside__allCategories__open__item__wrapper">
+										<p class='aside__allCategories__open__item__text'>Computers</p>
+										<p class="aside__allCategories__open__item__subtext">Tablets & Networking</p>
+									</div>
+								</li>
+
+								<li class='aside__allCategories__open__item'>
+									<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+									</svg>
+									<p class='aside__allCategories__open__item__text'>Consumer Electroinics</p>
+								</li>
+
+								<li class='aside__allCategories__open__item'>
+									<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+									</svg>
+									<p class='aside__allCategories__open__item__text'>Home & Garden</p>
+								</li>
+
+								<li class='aside__allCategories__open__item'>
+									<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
+									</svg>
+									<p class='aside__allCategories__open__item__text'>Collectibles</p>
+								</li>
+								<li><button class='aside__allCategories__open__item__button'>Expand</button></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<div class="aside__filters">
+						<select class='aside__filter__select'>
+							<option>Collapsed filters</option>
+						</select>
+						<ul class='aside__filters__selectSecond'>
+							<li class='aside__filters__selectSecond_item_flex_wrapper'>
+								<div class="aside__filters__selectSecond_item_flex">
+									<h3 class='aside__filters__selectSecond_item_flex__header'>Expanded Filters</h3>
+									<img class='aside__filters__selectSecond_item_flex_img'
+										src='img/Vectorarrow_up.png' />
 								</div>
-								<ul class='aside__allCategories__open__subitems'>
-									<li
-										class="aside__allCategories__open__item_subitem__ml aside__allCategories__open__item_subitem">
-										<div class="aside__allCategories__open__item_subitem_item">
-											Cell Phone Accessories
-										</div>
+								<ul class='aside__aside__filters__selectSecond__submenu'>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='1' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='1'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>Recommended</label>
+									</li>
 
-										<div class="aside__allCategories__open__item_subitem_item">
-											Cell Phone Gatgets
-										</div>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='2' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='2'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>Recently
+											Added</label>
+									</li>
 
-										<div class="aside__allCategories__open__item_subitem_item">
-											Applications
-										</div>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='3' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='3'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>Expiring
+											Soon</label>
+									</li>
 
-										<div class="aside__allCategories__open__item_subitem_item">
-											Smart Watches
-										</div>
-										<div class="aside__allCategories__open__item_subitem_item_button_wrapper">
-											<img class='aside__allCategories__open__item_subitem_item_button_img'
-												src='img/Vectorbtn_arrow.png' />
-											<button class='aside__allCategories__open__item_subitem_item_button'>Show
-												More</button>
-										</div>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='4' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='4' class='aside__filters__selectSecond_item_flex_subitems_text'>Most
+											Rated</label>
+									</li>
+
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='5' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='5'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
+											Low →
+											High</label>
+									</li>
+
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='6' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='6'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
+											High →
+											Low</label>
 									</li>
 								</ul>
 							</li>
-
-							<li class='aside__allCategories__open__item'>
-								<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-								</svg>
-								<p class='aside__allCategories__open__item__text'>Business & Industrial</p>
-							</li>
-
-							<li class='aside__allCategories__open__item'>
-								<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-								</svg>
-								<div class="aside__allCategories__open__item__wrapper">
-									<p class='aside__allCategories__open__item__text'>Computers</p>
-									<p class="aside__allCategories__open__item__subtext">Tablets & Networking</p>
-								</div>
-							</li>
-
-							<li class='aside__allCategories__open__item'>
-								<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-								</svg>
-								<p class='aside__allCategories__open__item__text'>Consumer Electroinics</p>
-							</li>
-
-							<li class='aside__allCategories__open__item'>
-								<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-								</svg>
-								<p class='aside__allCategories__open__item__text'>Home & Garden</p>
-							</li>
-
-							<li class='aside__allCategories__open__item'>
-								<svg class='arrowRight' width="8" height="13" viewBox="0 0 8 13"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.294956 2.11502L4.87496 6.70502L0.294956 11.295L1.70496 12.705L7.70496 6.70502L1.70496 0.705017L0.294956 2.11502Z" />
-								</svg>
-								<p class='aside__allCategories__open__item__text'>Collectibles</p>
-							</li>
-							<li><button class='aside__allCategories__open__item__button'>Expand</button></li>
 						</ul>
-					</li>
+						<ul class='aside__filters__selectThird'>
+							<li class='aside__filters__selectThird_item_flex_wrapper'>
+								<div class="aside__filters__selectThird_item_flex">
+									<h3 class='aside__filters__selectThird_item_flex__header'>Year of manufacturing</h3>
+									<img class='aside__filters__selectThird_item_flex_img'
+										src='img/Vectorarrow_up.png' />
+								</div>
+								<ul class='aside__aside__filters__selectThird__submenu'>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='7' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='7'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1954</label>
+									</li>
 
-				</ul>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='8' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='8'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1955</label>
+									</li>
 
-				<div class="aside__filters">
-					<select class='aside__filter__select'>
-						<option>Collapsed filters</option>
-					</select>
-					<ul class='aside__filters__selectSecond'>
-						<li class='aside__filters__selectSecond_item_flex_wrapper'>
-							<div class="aside__filters__selectSecond_item_flex">
-								<p>Expanded Filters</p>
-								<img class='aside__filters__selectSecond_item_flex_img' src='img/Vectorarrow_up.png' />
-							</div>
-							<ul class='aside__aside__filters__selectSecond__submenu'>
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='1' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='1'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>Recommended</label>
-								</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='9' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='9'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1956</label>
+									</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='2' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='2' class='aside__filters__selectSecond_item_flex_subitems_text'>Recently
-										Added</label>
-								</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='10' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='10'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1957</label>
+									</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='3' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='3' class='aside__filters__selectSecond_item_flex_subitems_text'>Expiring
-										Soon</label>
-								</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='11' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='11'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1958</label>
+									</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='4' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='4' class='aside__filters__selectSecond_item_flex_subitems_text'>Most
-										Rated</label>
-								</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='12' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='12'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1959</label>
+									</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='5' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='5' class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
-										Low →
-										High</label>
-								</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='13' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='13'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1960</label>
+									</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='6' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='6' class='aside__filters__selectSecond_item_flex_subitems_text'>Price:
-										High →
-										Low</label>
-								</li>
-							</ul>
-						</li>
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='14' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='14'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1961</label>
+									</li>
+
+									<li class='aside__filters__selectSecond_item_flex_subitems'>
+										<input id='15' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
+											type='checkbox' />
+										<label for='15'
+											class='aside__filters__selectSecond_item_flex_subitems_text'>1962-2020</label>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+
+			<main class='main'>
+				<div class="main__header">
+					<div class="main__header_first">
+						<div class="main__select_wrapper">
+							<select class='main__select main__select_margins'>
+								<option class='main__select__option'>Useless first</option>
+							</select>
+						</div>
+
+						<div class="main__select_wrapper_withoutbefore-first">
+							<select class='main__select main__select__second'>
+								<option class='main__select__option'>Condition</option>
+							</select>
+						</div>
+
+						<div class="main__select_wrapper_withoutbefore-second">
+							<select class='main__select main__select__second'>
+								<option class='main__select__option'>Delivery options</option>
+							</select>
+						</div>
+					</div>
+
+
+					<ul class="main__ul__show">
+						<li class='main__li__show main__li__show_active'>Show all</li>
+						<li class='main__li__show'>Auction</li>
+						<li class='main__li__show'>Buy now</li>
 					</ul>
-					<ul class='aside__filters__selectThird'>
-						<li class='aside__filters__selectThird_item_flex_wrapper'>
-							<div class="aside__filters__selectThird_item_flex">
-								<p>Year of manufacturing</p>
-								<img class='aside__filters__selectThird_item_flex_img' src='img/Vectorarrow_up.png' />
-							</div>
-							<ul class='aside__aside__filters__selectThird__submenu'>
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='7' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='7'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1954</label>
-								</li>
 
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='8' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='8'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1955</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='9' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='9'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1956</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='10' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='10'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1957</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='11' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='11'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1958</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='12' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='12'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1959</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='13' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='13'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1960</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='14' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='14'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1961</label>
-								</li>
-
-								<li class='aside__filters__selectSecond_item_flex_subitems'>
-									<input id='15' class='aside__filters__selectSecond_item_flex_subitems_checkbox'
-										type='checkbox' />
-									<label for='15'
-										class='aside__filters__selectSecond_item_flex_subitems_text'>1962-2020</label>
-								</li>
-							</ul>
-						</li>
+					<ul class="main__ul__show__second">
+						<li class='main__li__show__second'><img src='img/Vectorfirst__show.png' /></li>
+						<li class='main__li__show__second main__li__show__second_active'><img
+								src='img/Vectorsecond__show.png' /></li>
 					</ul>
 				</div>
-			</div>
-		</aside>
-
-		<main class='main'>
-			<div class="main__header">
-				<select class='main__select'>
-					<option class='main__select__option'>Useless first</option>
-				</select>
-
-				<select class='main__select main__select__second'>
-					<option class='main__select__option'>Condition</option>
-				</select>
-
-				<select class='main__select main__select__second'>
-					<option class='main__select__option'>Delivery options</option>
-				</select>
-
-				<ul class="main__ul__show">
-					<li class='main__li__show'>Show all</li>
-					<li class='main__li__show'>Auction</li>
-					<li class='main__li__show'>Buy now</li>
-				</ul>
-
-				<ul class="main__ul__show__second">
-					<li class='main__li__show__second'><img src='img/Vectorfirst__show.png' /></li>
-					<li class='main__li__show__second'><img src='img/Vectorsecond__show.png' /></li>
-				</ul>
-			</div>
-			<div class="related">
-				<p class='related__text'>Related</p>
-				<ul class='related__ul'>
-					<li class='related__li'>worlwide shipping</li>
-					<li class='related__li'>under $50</li>
-					<li class='related__li'>kitten</li>
-					<li class='related__li'>worlwide shipping</li>
-					<li class='related__li'>plastic plugs</li>
-					<li class='related__li'>pucker shoes</li>
-					<li class='related__li'>vintage typewriter</li>
-				</ul>
-			</div>
-			<div class="carts">
-				<div class="carts__item">
-					<img src='img/carts__item/Image1.png' />
-					<p class='carts__item__text'>Vintage Typewriter to post awesome stories about UI design and webdev.
-					</p>
-					<p class='carts__item__price'>$49.50</p>
-					<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.05</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
+				<div class="related">
+					<p class='related__text'>Related</p>
+					<ul class='related__ul'>
+						<li class='related__li'>worlwide shipping</li>
+						<li class='related__li'>under $50</li>
+						<li class='related__li'>kitten</li>
+						<li class='related__li'>worlwide shipping</li>
+						<li class='related__li'>plastic plugs</li>
+						<li class='related__li'>pucker shoes</li>
+						<li class='related__li'>vintage typewriter</li>
+					</ul>
+				</div>
+				<div class="carts">
+					<div class="carts__item">
+						<img src='img/carts__item/Image1.png' />
+						<p class='carts__item__text'>Vintage Typewriter to post awesome stories about UI design and
+							webdev.
+						</p>
+						<p class='carts__item__price'>$49.50</p>
+						<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.05</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="carts__item">
-					<img src='img/carts__item/Image2.png' />
-					<p class='carts__item__text'>Lee Pucker design. Leather botinki for handsome designers. Free
-						shipping.
-					</p>
-					<p class='carts__item__price'>$13.95</p>
-					<p class='carts__item__subtext'>1258 bids, 359 watchers
-						$5.95 for shipping</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.56</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
+					<div class="carts__item">
+						<img src='img/carts__item/Image2.png' />
+						<p class='carts__item__text'>Lee Pucker design. Leather botinki for handsome designers. Free
+							shipping.
+						</p>
+						<p class='carts__item__price'>$13.95</p>
+						<p class='carts__item__subtext'>1258 bids, 359 watchers
+							$5.95 for shipping</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.56</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="carts__item">
-					<img src='img/carts__item/Image3.png' />
-					<p class='carts__item__text'>Timesaving kitten to save months on development. Playful, cute, cheap!
-					</p>
-					<p class='carts__item__price'>$128.99</p>
-					<p class='carts__item__subtext carts__item__subtext__margin'>Eligible for nothing :(</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.87</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
+					<div class="carts__item">
+						<img src='img/carts__item/Image3.png' />
+						<p class='carts__item__text'>Timesaving kitten to save months on development. Playful, cute,
+							cheap!
+						</p>
+						<p class='carts__item__price'>$128.99</p>
+						<p class='carts__item__subtext carts__item__subtext__margin'>Eligible for nothing :(</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.87</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="carts__item">
-					<img src='img/carts__item/Image4.png' />
-					<p class='carts__item__text'>Plastic useless plugs and tubes for high-fidelity prototyping. Fit &
-						Eat!
-					</p>
-					<div class="carts__item__priceAnd50off">
+					<div class="carts__item">
+						<img src='img/carts__item/Image4.png' />
+						<p class='carts__item__text'>Plastic useless plugs and tubes for high-fidelity prototyping. Fit
+							&
+							Eat!
+						</p>
+						<div class="carts__item__priceAnd50off">
+							<p class='carts__item__price'>$12.48</p>
+							<p class='carts__item_50off'>50% OFF</p>
+						</div>
+						<p class='carts__item__subtext'>Wordwide shitting available
+							Buyers protection possible!</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.05</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image5.png' />
+						<p class='carts__item__text'>Creativity stimulating lotion. Drink every morning to generate
+							better
+							ideas!
+						</p>
 						<p class='carts__item__price'>$12.48</p>
-						<p class='carts__item_50off'>50% OFF</p>
-					</div>
-					<p class='carts__item__subtext'>Wordwide shitting available
-						Buyers protection possible!</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
+						<p class='carts__item__subtext'>Wordwide shifting available
+							Buyers protection possible!</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.99</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
 						</div>
-						<div class='star__number'>4.05</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image6.png' />
+						<p class='carts__item__text'>Prototyping items to create a lot if useless things...
+						</p>
+						<p class='carts__item__price carts__item__price__margin'>$128.99</p>
+						<p class='carts__item__subtext carts__item__subtext__marginSecond'>Showcasing onHovered state
+						</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.87</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
 						</div>
 					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image7.png' />
+						<p class='carts__item__text'>John Von Ebalkin SPRING
+						</p>
+						<p class='carts__item__price carts__item__price__marginSecond'>$13.95</p>
+						<p class='carts__item__subtext carts__item__subtext__marginThird'>1258 bids, 359 watchers
+							$5.95 for shipping</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.56</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image8.png' />
+						<p class='carts__item__text'>Envelope, Stripes, Pencil and etc. Purchase this kit today and feel
+							OKAY
+						</p>
+						<p class='carts__item__price'>$9.50</p>
+						<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.77</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image9.png' />
+						<p class='carts__item__text'>Professional teadrinking set for every designer and developer
+						</p>
+						<p class='carts__item__price'>$128.99</p>
+						<p class='carts__item__subtext carts__item__subtext__marginFourth'>Eligible for nothing :(</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.87</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image10.png' />
+						<p class='carts__item__text carts__item__subtext__width'>One string Bonsai description
+						</p>
+						<p class='carts__item__price carts__item__price__marginThird'>$11.68</p>
+						<p class='carts__item__subtext carts__item__subtext__marginFifth'>Wordwide shifting available
+							Buyers protection possible!</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.99</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image11.png' />
+						<p class='carts__item__text'>Simply best item in town to shine bright with your Nine Inch Nails
+						</p>
+						<div class="carts__item__priceAndCool">
+							<p class='carts__item__price'>$1.25</p>
+							<div class="carts__item__cool">Cool deal!</div>
+						</div>
+						<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.77</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="carts__item">
+						<img src='img/carts__item/Image12.png' />
+						<p class='carts__item__text'>KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!
+						</p>
+						<p class='carts__item__price'>$23.25</p>
+						<p class='carts__item__subtext'>1258 bids, 359 watchers
+							$5.95 for shipping</p>
+						<div class="starAndWatch">
+							<div class='stars'>
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorstar.png' />
+								<img class='star' src='img/Vectorhalf_star.png' />
+							</div>
+							<div class='star__number'>4.56</div>
+							<div class="watch__wrapper">
+								<img class='watch__heart' src='img/Vectorheart.png' />
+								<button class='watch__button'>Watch</button>
+							</div>
+						</div>
+					</div>
+
 				</div>
 
-				<div class="carts__item">
-					<img src='img/carts__item/Image5.png' />
-					<p class='carts__item__text'>Creativity stimulating lotion. Drink every morning to generate better
-						ideas!
-					</p>
-					<p class='carts__item__price'>$12.48</p>
-					<p class='carts__item__subtext'>Wordwide shifting available
-						Buyers protection possible!</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.99</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image6.png' />
-					<p class='carts__item__text'>Prototyping items to create a lot if useless things...
-					</p>
-					<p class='carts__item__price carts__item__price__margin'>$128.99</p>
-					<p class='carts__item__subtext carts__item__subtext__marginSecond'>Showcasing onHovered state</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.87</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image7.png' />
-					<p class='carts__item__text'>John Von Ebalkin SPRING
-					</p>
-					<p class='carts__item__price carts__item__price__marginSecond'>$13.95</p>
-					<p class='carts__item__subtext carts__item__subtext__marginThird'>1258 bids, 359 watchers
-						$5.95 for shipping</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.56</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image8.png' />
-					<p class='carts__item__text'>Envelope, Stripes, Pencil and etc. Purchase this kit today and feel
-						OKAY
-					</p>
-					<p class='carts__item__price'>$9.50</p>
-					<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.77</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image9.png' />
-					<p class='carts__item__text'>Professional teadrinking set for every designer and developer
-					</p>
-					<p class='carts__item__price'>$128.99</p>
-					<p class='carts__item__subtext carts__item__subtext__marginFourth'>Eligible for nothing :(</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.87</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image10.png' />
-					<p class='carts__item__text carts__item__subtext__width'>One string Bonsai description
-					</p>
-					<p class='carts__item__price carts__item__price__marginThird'>$11.68</p>
-					<p class='carts__item__subtext carts__item__subtext__marginFifth'>Wordwide shifting available
-						Buyers protection possible!</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.99</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image11.png' />
-					<p class='carts__item__text'>Simply best item in town to shine bright with your Nine Inch Nails
-					</p>
-					<div class="carts__item__priceAndCool">
-						<p class='carts__item__price'>$1.25</p>
-						<div class="carts__item__cool">Cool deal!</div>
-					</div>
-					<p class='carts__item__subtext'>Eligible for Shipping To Mars or somewhere else</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.77</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="carts__item">
-					<img src='img/carts__item/Image12.png' />
-					<p class='carts__item__text'>KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!
-					</p>
-					<p class='carts__item__price'>$23.25</p>
-					<p class='carts__item__subtext'>1258 bids, 359 watchers
-						$5.95 for shipping</p>
-					<div class="starAndWatch">
-						<div class='stars'>
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorstar.png' />
-							<img class='star' src='img/Vectorhalf_star.png' />
-						</div>
-						<div class='star__number'>4.56</div>
-						<div class="watch__wrapper">
-							<img class='watch__heart' src='img/Vectorheart.png' />
-							<button class='watch__button'>Watch</button>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</main>
+			</main>
+		</div>
 	</div>
 	<div class="subMain">
 		<div class="subMain__cart">
@@ -759,8 +788,10 @@
 		</div>
 		<div class="subfooter">
 			<p class='subfooter__copyright'>Shopka © 2011 All rights reserved</p>
-			<img class='visa' src='img/visavisa.svg' />
-			<img class='master' src='img/mastercardmaster.svg' />
+			<div class="subfooter__wrapper__cards">
+				<img class='visa' src='img/visavisa.svg' />
+				<img class='master' src='img/mastercardmaster.svg' />
+			</div>
 			<ul class='subfooter__ul'>
 				<li class='subfooter__li'><a href='#'>Sitemap</a></li>
 				<li class='subfooter__li'><a href='#'>Privacy policy</a></li>
