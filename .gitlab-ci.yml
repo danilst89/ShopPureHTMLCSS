@@ -1,11 +1,9 @@
 pages:
     stage: deploy
     script:
-        - mkdir .ShopPureHTMLCSS
-        - cp -r * .ShopPureHTMLCSS
-        - mv .ShopPureHTMLCSS ShopPureHTMLCSS
+        - mv ShopPureHTMLCSS public
     artifacts:
         paths:
-            - ShopPureHTMLCSS
+            - public
     only:
         - master
